@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'dashboard#index'
   resources :pets
   resources :clients
   devise_for :users
